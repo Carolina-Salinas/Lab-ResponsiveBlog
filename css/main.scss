@@ -1,0 +1,17 @@
+$color_primario: #F4F4F4F4;
+$color_secundario: #ffbc5e;
+$tipografia: "Arial",sansserif;
+
+h1{
+	font-family: $tipografia;
+	color: $color_secundario;
+}
+a{
+	font-family: $tipografia;
+	color: $color_primario;
+}
+p{
+	font-family: $tipografia;
+	color: $color_primario;
+}
+
