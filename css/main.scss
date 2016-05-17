@@ -1,10 +1,13 @@
 $color_primario: #F4F4F4F4;
 $color_secundario: #ffbc5e;
 $tipografia: "Arial",sansserif;
+$letragrande: 50px;
+$bordes_contenido: none;
 
-h1{
+h1,h3{
 	font-family: $tipografia;
 	color: $color_secundario;
+	font-size
 }
 a{
 	font-family: $tipografia;

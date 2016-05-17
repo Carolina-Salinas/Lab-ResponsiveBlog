@@ -1,13 +1,67 @@
-h1 {
-  font-family: "Arial", sansserif;
+h1,h2,h3,h4{
+  font-family: "Courgette", sansserif;/*agregar scss */
   color: #ffbc5e; }
 
 a {
   font-family: "Arial", sansserif;
-  color: #F4F4F4F4; }
+  color: #F4F4F4; }
 
 p {
   font-family: "Arial", sansserif;
-  color: #F4F4F4F4; }
+  color: #F4F4F4;
+  font-size: 16px; }/*agregar scss */
 
 /*# sourceMappingURL=main.css.map */
+* {
+  outline: 1px solid rgba(255, 0, 0, 0.3); }
+
+body{
+	background-color: #1C1821;/*agregar scss */
+}
+.cont-header{
+  background-color: #0e0e0e;
+  height: auto;
+}
+.hero_font{
+	background: url(../image/image2.jpg);
+	background-size: cover;
+	background-position: center;
+	height: auto;
+	padding: 70px 200px;
+}
+.info_banner{
+	padding: 20px;
+	background: #0e0e0e;
+
+}
+/*important*/
+.thumbnail{
+	border: none;
+	padding: 0;
+}
+.caption{
+	background-color: #0e0e0e;
+}
+.content-section{
+	padding: 20px;
+}
+.video {
+    width: 100%;
+    height: auto;
+}
+.form-control{
+	color: #fff;
+  padding: 15px 30px;
+  background: #1C1821;
+  border: 1px solid #1C1821;
+  border-radius: 5px;	
+  width: 400px;
+  margin: 20px auto;
+}
+.searcher{
+	padding: 15px 30px;
+	background-color: #0e0e0e;
+	border: 1px solid #1C1821;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
